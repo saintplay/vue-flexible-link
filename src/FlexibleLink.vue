@@ -1,4 +1,4 @@
-<template > 
+<template> 
   <a v-if="native" :class="customClass" @click="openLinkNatively">
     <slot></slot>
   </a>
@@ -31,8 +31,9 @@ export default {
   methods: {
     openLinkNatively() {
       if (this.native) {
-        /* eslint-disable global-require */
+        /* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, global-require */
         require('electron').shell.openExternal(this.href);
+        /* eslint-enable import/no-extraneous-dependencies, import/no-unresolved, global-require */
       }
     },
   },

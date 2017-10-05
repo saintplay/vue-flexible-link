@@ -1,7 +1,7 @@
 import FlexibleLink from './FlexibleLink.vue';
 
 module.exports = {
-  install: function (Vue, options) {
+  install(Vue) {
     Vue.component('flexible-link', FlexibleLink);
-  }
+  },
 };
