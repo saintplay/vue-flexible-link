@@ -2,7 +2,7 @@
   "name": "vue-flexible-link",
   "version": "0.0.1",
   "description": "Tiny vue component to open link natively in Electron or in a Web environment",
-  "main": "dist/vue-flexible-link",
+  "main": "dist/flexible-link",
   "repository": "https://github.com/saintplay/vue-flexible-link.git",
   "author": "Diego Jara <saintplay96@gmail.com>",
   "license": "MIT",

@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'flexible-button',
+  name: 'flexible-link',
   props: {
     native: {
       type: Boolean,
