@@ -1,0 +1,19 @@
+{
+  "name": "vue-flexible-link",
+  "version": "0.0.1",
+  "description": "Tiny vue component to open link natively in Electron or in a Web environment",
+  "main": "dist/vue-flexible-link",
+  "repository": "https://github.com/saintplay/vue-flexible-link.git",
+  "author": "Diego Jara <saintplay96@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/saintplay/vue-flexible-link/issues"
+  },
+  "homepage": "https://github.com/saintplay/vue-flexible-link",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
