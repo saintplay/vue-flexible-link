@@ -33,6 +33,9 @@ var config = {
   plugins: [
     new BabiliWebpackPlugin(),
   ],
+  node: {
+    fs: 'empty',
+  },
 };
 
 
@@ -43,9 +46,6 @@ module.exports = [
       filename: 'flexible-link.min.js',
       libraryTarget: 'window',
       library: 'FlexibleLink',
-    },
-    node: {
-      fs: 'empty',
     },
   }),
   merge(config, {
