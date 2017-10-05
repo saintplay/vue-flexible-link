@@ -63,7 +63,7 @@ You need the import the non-compiled component
 import FlexibleLink from 'vue-flexible-link/src/FlexibleLink'
 ```
 
-And you need the node mock to your **webpack configuration** to get this working:
+And you need the add the node's *fs* mock to your **webpack configuration** to get this working:
 
 ```js
 entry: {
