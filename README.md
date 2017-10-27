@@ -104,7 +104,7 @@ Make sure your [build targets](https://webpack.js.org/configuration/target/) are
 You can import the component like this
 
 ```js
-    import FlexibleLink from 'vue-flexible-link'
+import FlexibleLink from 'vue-flexible-link'
 ```
 
 And you should be fine
@@ -114,7 +114,7 @@ Yeah, this component doesn't make sense if you are building a web app only. Don'
 
 ### Note ###
 
-If you are **having trouble configuring the builds** you may want to check out the config of my cross env project [finance-wheel(https://github.com/upclab/finance-wheel) based on official webpack template
+If you are **having trouble configuring the builds** you may want to check out the config of my cross env project [finance-wheel](https://github.com/upclab/finance-wheel) based on official webpack template
 
 
 ## Roadmap ##
